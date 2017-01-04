@@ -34,6 +34,6 @@ php7.1-gmp        php7.1-json       php7.1-mysql      php7.1-phpdbg     php7.1-s
 ADD php/packages/phpunit-5.6.2.phar /usr/local/bin/phpunit
 
 # Composer
-ADD
+ADD php/packages/composer.phar /usr/local/bin/composer
 
 # 安装 Mysql
