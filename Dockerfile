@@ -68,7 +68,7 @@ ADD packages/sources.list /etc/apt/sources.list
 
 WORKDIR $BASE_PROJECT_DIR
 
-EXPOSE 80 9000 22 808
+EXPOSE 80 9000 808
 
 VOLUME ["$BASE_PROJECT_DIR"]
 
