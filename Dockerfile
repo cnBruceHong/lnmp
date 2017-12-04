@@ -70,5 +70,7 @@ WORKDIR $BASE_PROJECT_DIR
 
 EXPOSE 80 9000 22 808
 
+VOLUME ["$BASE_PROJECT_DIR"]
+
 # 初始化挂载信息
 CMD ["/usr/bin/supervisord"]
