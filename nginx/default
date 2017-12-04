@@ -1,6 +1,7 @@
 server {
 	listen 80 default_server;
 	root /home/web/code;
+	index  index.php index.html index.htm;
 
 	location / {
 		try_files $uri $uri/ =404;
